@@ -1,0 +1,22 @@
+.nav li a {
+    text-decoration: none;
+    display: flex;
+    color: black;
+    padding: 12px 10px;
+
+}
+
+
+.nav-list {
+    width: 400px;
+    padding-left: 70px;
+    height: 460px;
+  }
+  
+  .nav-list li {
+    list-style-type: none;
+    a {
+      font-size: 14px;
+      padding-left: 30px;
+    }
+  }

@@ -1,0 +1,169 @@
+.nav li a {
+  text-decoration: none;
+  display: flex;
+  color: black;
+  padding: 12px 10px;
+}
+
+.nav-list {
+  width: 400px;
+  padding-left: 70px;
+  height: 460px;
+}
+
+.nav-list li {
+  list-style-type: none;
+}
+.nav-list li a {
+  font-size: 14px;
+  padding-left: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  padding: auto;
+}
+
+.top-header {
+  width: 100%;
+  height: 100px;
+}
+
+.row-radius {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.pic {
+  width: 50px;
+}
+
+.font {
+  font-size: 20px;
+}
+
+.complete {
+  width: 100%;
+  height: 600px;
+  background-color: black;
+  margin-top: 3px;
+}
+
+.complete h1 {
+  color: white;
+  margin-top: 3px;
+}
+
+.update h2 {
+  font-size: 50px;
+}
+
+.trendy {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-image: url("../images/0518_01_SingleBanner_Desktop.webp");
+}
+
+.make {
+  width: 100%;
+  height: max-content;
+}
+
+.cardpic {
+  background-image: url("../images/0518_02_Carousel_Desktop-1.avif");
+}
+
+.upgrade {
+  width: 100%;
+  height: 200px;
+  background-image: url("../images/rimelbanner.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  background-image: url("../images/0502_08_Help_Desktop.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  width: 100%;
+  height: max-content;
+}
+
+.links-footer a {
+  color: white;
+  text-decoration: none;
+}
+.links-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-end {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: max-content;
+  background-color: black;
+}
+
+.footer-end a {
+  text-decoration: none;
+}
+.footer-end a:hover {
+  text-decoration: underline;
+}
+
+.top {
+  z-index: 999;
+  position: fixed;
+  margin: 0px;
+  color: white;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  position: fixed;
+  bottom: 115px;
+  right: 25px;
+  z-index: 999;
+  font-size: 14px;
+  background: black;
+  border: 2px solid #0f0f0f;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 34px;
+}
+
+.go-btn {
+  text-decoration: none;
+  height: 80px;
+}
+
+.shop-btn {
+  width: 350px;
+  height: 50px;
+}
+
+.nav-shop {
+  width: 300px;
+  height: 320px;
+}
+
+/*# sourceMappingURL=style.css.map */
